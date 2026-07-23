@@ -1,4 +1,6 @@
-export const MenuLink = ({ isActive, setActiveTab, tab, children }) => {
+import { NavLink } from 'react-router'
+
+export const MenuLink = ({ isActive, setActiveTab, tab, to, children }) => {
 	return (
 		<li
 			className={`text-lg leading-[150%] 
@@ -9,7 +11,7 @@ export const MenuLink = ({ isActive, setActiveTab, tab, children }) => {
 				}`}
 			onClick={() => setActiveTab(tab)}
 		>
-			{children}
+			<NavLink to={to}>{children}</NavLink>
 		</li>
 	)
 }
