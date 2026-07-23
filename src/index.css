@@ -38,3 +38,9 @@
 	/* Fonts */
 	--font-family-base: 'Inter', system-ui, -apple-system, sans-serif;
 }
+
+@layer base {
+	body {
+		@apply bg-dark-08 font-family-base font-normal;
+	}
+}
