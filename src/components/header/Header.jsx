@@ -8,10 +8,10 @@ export const Header = () => {
 	const [activeTab, setActiveTab] = useState('home')
 
 	const menuItems = [
-		{ id: 'home', label: 'Home' },
-		{ id: 'news', label: 'News' },
-		{ id: 'podcasts', label: 'Podcasts' },
-		{ id: 'resources', label: 'Resources' },
+		{ id: 'home', label: 'Home', link: '/' },
+		{ id: 'news', label: 'News', link: '/news' },
+		{ id: 'podcasts', label: 'Podcasts', link: '/podcasts' },
+		{ id: 'resources', label: 'Resources', link: '/resources' },
 	]
 
 	return (
@@ -28,6 +28,7 @@ export const Header = () => {
 									isActive={activeTab === item.id}
 									setActiveTab={setActiveTab}
 									tab={item.id}
+									to={item.link}
 								>
 									{item.label}
 								</MenuLink>
