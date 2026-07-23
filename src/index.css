@@ -37,10 +37,19 @@
 
 	/* Fonts */
 	--font-family-base: 'Inter', system-ui, -apple-system, sans-serif;
+
+	/* Rounded */
+	--radius-10: 10px;
 }
 
 @layer base {
 	body {
-		@apply bg-dark-08 font-family-base font-normal;
+		@apply bg-dark-08 font-family-base font-normal text-absolute-white;
+	}
+}
+
+@layer components {
+	.container-custom {
+		@apply max-w-[1596px] pl-8 pr-8 m-auto overflow-hidden;
 	}
 }
