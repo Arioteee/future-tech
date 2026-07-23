@@ -34,4 +34,7 @@
 	--color-light-95: #f1f1f3;
 	--color-light-97: #f7f7f8;
 	--color-light-99: #fcfcfd;
+
+	/* Fonts */
+	--font-family-base: 'Inter', system-ui, -apple-system, sans-serif;
 }
