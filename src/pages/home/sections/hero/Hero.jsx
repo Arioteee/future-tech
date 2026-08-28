@@ -1,5 +1,9 @@
-import { DataStatsFeel } from './ui/dataStatsFeel'
-import { ArrowUp } from '../../../../components/icons/ArrowUp'
+import { DataStatsFeel } from './ui/DataStatsFeel'
+import { FutureCard } from './ui/FutureCard'
+
+import { ArrowUp } from '../../../../components/icons/Icons'
+
+import dataFutureCard from '../../../../data/heroData.json'
 
 import Abstract from '../../../../assets/png/abstract.png'
 import Tom from '../../../../assets/png/tom.png'
@@ -9,9 +13,9 @@ import Mickle from '../../../../assets/png/mickle.png'
 
 export const Hero = () => {
 	return (
-		<section className=''>
+		<section>
 			<div className='container-custom'>
-				<div className='grid grid-cols-12 grid-rows-auto items-start'>
+				<div className='grid grid-cols-12 grid-rows-auto items-start gap-0'>
 					<div className='col-span-7 pt-37.5 pb-25 pr-12.5 border border-l-0 border-dark-10'>
 						<p className='font-medium text-3xl leading-[120%] text-dark-40'>
 							Your Journey to Tomorrow Begins Here
@@ -60,7 +64,7 @@ export const Hero = () => {
 					</div>
 
 					<div className='grid grid-cols-12 col-span-7 border-t border-b border-dark-10'>
-						<div className='col-span-4 p-12.5 border-r border-dark-10'>
+						<div className='col-span-4 p-12.5 pl-0 border-r border-dark-10'>
 							<DataStatsFeel>Resources available</DataStatsFeel>
 						</div>
 						<div className='col-span-4 p-12.5 border-r border-dark-10'>
@@ -72,56 +76,9 @@ export const Hero = () => {
 					</div>
 
 					<div className='col-span-12 grid grid-cols-3'>
-						<div className='pr-20 border-2 border-t border-dark-10 transition cursor-pointer'>
-							<img src='' alt='' />
-
-							<div className='flex'>
-								<div className=''>
-									<p className=''>Latest News Updates</p>
-									<p className=''>Stay Current</p>
-								</div>
-
-								<div className=''>
-									<img src='' alt='' />
-								</div>
-							</div>
-
-							<p className=''>Over 1,000 articles published monthly</p>
-						</div>
-
-						<div className='px-20 border-2 border-dark-10 transition cursor-pointer'>
-							<img src='' alt='' />
-
-							<div className='flex'>
-								<div className=''>
-									<p className=''>Expert Contributors</p>
-									<p className=''>Trusted Insights</p>
-								</div>
-
-								<div className=''>
-									<img src='' alt='' />
-								</div>
-							</div>
-
-							<p className=''>50+ renowned AI experts on our team</p>
-						</div>
-
-						<div className='px-20 border-2 border-r-0 border-dark-10 transition cursor-pointer'>
-							<img src='' alt='' />
-
-							<div className='flex'>
-								<div className=''>
-									<p className=''>Global Readership</p>
-									<p className=''>Worldwide Impact</p>
-								</div>
-
-								<div className=''>
-									<img src='' alt='' />
-								</div>
-							</div>
-
-							<p className=''>2 million monthly readers</p>
-						</div>
+						{dataFutureCard.map((data, index) => (
+							<FutureCard key={data.id} data={data} index={index} />
+						))}
 					</div>
 				</div>
 			</div>
