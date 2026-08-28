@@ -1,7 +1,7 @@
 import { useState } from 'react'
 
 import { MenuLink } from './ui/MenuLink'
-import { BurgerIcon } from '../icons/BurgerIcon'
+import { BurgerIcon } from '../icons/Icons'
 import { Logotype } from '../../assets/svg/Logotype'
 
 export const Header = () => {
