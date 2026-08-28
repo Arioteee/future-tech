@@ -1,0 +1,35 @@
+[
+	{
+		"id": 0,
+		"title": "Latest News Updates",
+		"subtitle": "Stay Current",
+		"description": "Over 1,000 articles published monthly",
+		"icon": "plusCross",
+		"styles": {
+			"padding": "pr-20",
+			"border": "border-r"
+		}
+	},
+	{
+		"id": 1,
+		"title": "Expert Contributors",
+		"subtitle": "Trusted Insights",
+		"description": "50+ renowned AI experts on our team",
+		"icon": "quadrantCircle",
+		"styles": {
+			"padding": "px-20",
+			"border": "border-r"
+		}
+	},
+	{
+		"id": 2,
+		"title": "Global Readership",
+		"subtitle": "Worldwide Impact",
+		"description": "2 million monthly readers",
+		"icon": "dividedSemiCircle",
+		"styles": {
+			"padding": "px-20",
+			"border": "border-r-0"
+		}
+	}
+]
