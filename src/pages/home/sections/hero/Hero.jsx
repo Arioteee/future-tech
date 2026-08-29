@@ -1,15 +1,15 @@
 import { DataStatsFeel } from './ui/DataStatsFeel'
 import { FutureCard } from './ui/FutureCard'
 
-import { ArrowUp } from '../../../../components/icons/Icons'
+import { ArrowUp } from '@/components/icons/Icons'
 
-import dataFutureCard from '../../../../data/heroData.json'
+import dataFutureCard from '@/data/heroData.json'
 
-import Abstract from '../../../../assets/png/abstract.png'
-import Tom from '../../../../assets/png/tom.png'
-import Madison from '../../../../assets/png/madison.png'
-import Ashab from '../../../../assets/png/ashab.png'
-import Mickle from '../../../../assets/png/mickle.png'
+import Abstract from '@/assets/png/abstract.png'
+import Tom from '@/assets/png/tom.png'
+import Madison from '@/assets/png/madison.png'
+import Ashab from '@/assets/png/ashab.png'
+import Mickle from '@/assets/png/mickle.png'
 
 export const Hero = () => {
 	return (

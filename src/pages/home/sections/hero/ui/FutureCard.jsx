@@ -1,5 +1,5 @@
-import { ArrowDiagUp } from '../../../../../components/icons/Icons'
-import { iconMap } from '../../../../../components/icons/index'
+import { ArrowDiagUp } from '@/components/icons/Icons'
+import { iconMap } from '@/components/icons/index'
 
 export const FutureCard = ({ data, index }) => {
 	const IconComponent = iconMap[data.icon]
