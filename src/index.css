@@ -41,6 +41,10 @@
 
 	/* Rounded */
 	--radius-10: 10px;
+
+	/* Media query */
+	--breakpoint-xxl: 1440px;
+	--breakpoint-midlg: 1200px;
 }
 
 @layer base {
