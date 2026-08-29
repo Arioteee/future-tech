@@ -5,9 +5,10 @@ export const FutureCard = ({ data, index }) => {
 	const IconComponent = iconMap[data.icon]
 	const { padding = 'pr-20', border = 'border-r' } = data.styles || {}
 	const finalPadding = index === 0 ? 'pr-20' : padding
+	const finalBorder = index === 2 ? 'border-r-0' : border
 
 	return (
-		<div className={`py-12.5 ${finalPadding} ${border} border-y border-dark-10`}>
+		<div className={`py-12.5 ${finalPadding} ${finalBorder} border-y border-dark-10`}>
 			<div tabIndex={0}>{IconComponent && <IconComponent />}</div>
 
 			<div className='flex justify-between items-center my-7.5'>
