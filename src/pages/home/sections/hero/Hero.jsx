@@ -1,9 +1,10 @@
-import { DataStatsFeel } from './ui/DataStatsFeel'
+import { Achivements } from './ui/Achivements'
 import { FutureCard } from './ui/FutureCard'
 
 import { ArrowUp } from '@/components/icons/Icons'
 
 import dataFutureCard from '@/data/heroData.json'
+import dataAchivements from '@/data/achivementsData.json'
 
 import Abstract from '@/assets/png/abstract.png'
 import Tom from '@/assets/png/tom.png'
@@ -36,7 +37,7 @@ export const Hero = () => {
                      border border-r-0 border-dark-10 overflow-hidden
                      order-2 max-midlg:order-3'
 					>
-						<div className='absolute top-0 left-0 -z-10 opacity-80' tabIndex={0}>
+						<div className='absolute top-0 left-0 -z-10 opacity-80'>
 							<img src={Abstract} alt='Abstract image' />
 						</div>
 
@@ -44,25 +45,18 @@ export const Hero = () => {
 
 						<div className='flex w-max border border-dark-15 rounded-full max-xxl:p-2 p-2.5 bg-dark-10'>
 							<div className='flex -space-x-3'>
-								<img
-									src={Tom}
-									className='w-15 h-15 max-xxl:(w-12 h-15) shrink-0'
-									aria-hidden
-								/>
+								<img src={Tom} className='w-15 h-15 max-xxl:(w-12 h-15) shrink-0' />
 								<img
 									src={Madison}
 									className='w-15 h-15 max-xxl:(w-12 h-15) shrink-0'
-									aria-hidden
 								/>
 								<img
 									src={Ashab}
 									className='w-15 h-15 max-xxl:(w-12 h-15) shrink-0'
-									aria-hidden
 								/>
 								<img
 									src={Mickle}
 									className='w-15 h-15 max-xxl:(w-12 h-15) shrink-0'
-									aria-hidden
 								/>
 							</div>
 						</div>
@@ -85,15 +79,9 @@ export const Hero = () => {
 					</div>
 
 					<div className='grid grid-cols-12 col-span-7 max-midlg:grid-span-12 border-t border-b border-dark-10 order-3 max-midlg:order-2'>
-						<div className='col-span-4 p-12.5 pl-0 max-sm:p-5 max-sm:pl-0 border-r border-dark-10'>
-							<DataStatsFeel>Resources available</DataStatsFeel>
-						</div>
-						<div className='col-span-4 p-12.5  max-sm:p-5 border-r border-dark-10'>
-							<DataStatsFeel>Total Downloads</DataStatsFeel>
-						</div>
-						<div className='col-span-4 p-12.5 max-sm:p-5'>
-							<DataStatsFeel>Active Users</DataStatsFeel>
-						</div>
+						{dataAchivements.map((data, index) => (
+							<Achivements key={data.id} data={data} index={index} />
+						))}
 					</div>
 
 					<div className='grid col-span-12 grid-cols-3 max-midlg:grid-cols-1 order-4'>
