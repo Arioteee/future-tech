@@ -12,7 +12,7 @@ export const FutureCard = ({ data, index }) => {
 		<div
 			className={`py-12.5 ${finalPadding} ${mqPadding} ${finalBorder} max-midlg:px-0 max-midlg:border-r-0 border-y border-dark-10`}
 		>
-			<div tabIndex={0}>{IconComponent && <IconComponent />}</div>
+			<div tabIndex={-1}>{IconComponent && <IconComponent />}</div>
 
 			<div className='flex justify-between items-center my-7.5'>
 				<div>
@@ -20,7 +20,7 @@ export const FutureCard = ({ data, index }) => {
 					<p className='max-xxl:text-base text-lg text-light-50'>{data.subtitle}</p>
 				</div>
 
-				<div className='bg-brand p-4 rounded-full cursor-pointer' tabIndex={0}>
+				<div className='bg-brand p-4 rounded-full cursor-pointer' tabIndex={1}>
 					<ArrowDiagUp />
 				</div>
 			</div>
