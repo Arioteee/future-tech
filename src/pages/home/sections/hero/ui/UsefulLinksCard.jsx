@@ -1,7 +1,7 @@
 import { ArrowDiagUp } from '@/components/icons/Icons'
 import { iconMap } from '@/components/icons/index'
 
-export const FutureCard = ({ data, index }) => {
+export const UsefulLinksCard = ({ data, index }) => {
 	const IconComponent = iconMap[data.icon]
 	const { padding = 'pr-20', border = 'border-r' } = data.styles || {}
 	const finalPadding = index === 0 ? 'pl-0 pr-20' : padding

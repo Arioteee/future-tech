@@ -1,5 +1,5 @@
 import { Achivements } from './ui/Achivements'
-import { FutureCard } from './ui/FutureCard'
+import { UsefulLinksCard } from './ui/UsefulLinksCard'
 
 import { ArrowUp } from '@/components/icons/Icons'
 
@@ -86,7 +86,7 @@ export const Hero = () => {
 
 					<div className='grid col-span-12 grid-cols-3 max-midlg:grid-cols-1 order-4'>
 						{dataFutureCard.map((data, index) => (
-							<FutureCard key={data.id} data={data} index={index} />
+							<UsefulLinksCard key={data.id} data={data} index={index} />
 						))}
 					</div>
 				</div>
