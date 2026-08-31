@@ -1,0 +1,28 @@
+[
+	{
+		"id": 0,
+		"icon": "boxBlogs",
+		"title": "Research Insights Blogs",
+		"description": "Dive deep into future technology concepts with our research section."
+	},
+	{
+		"id": 1,
+		"titleCard": "Depth",
+		"descriptionCard": "500+ research articles for in-depth understanding."
+	},
+	{
+		"id": 2,
+		"titleCard": "Graphics",
+		"descriptionCard": "Visual aids and infographics to enhance comprehension."
+	},
+	{
+		"id": 3,
+		"titleCard": "Trends",
+		"descriptionCard": "Explore emerging trends in future technology research."
+	},
+	{
+		"id": 4,
+		"titleCard": "Contributors",
+		"descriptionCard": "Contributions from tech researchers and academics."
+	}
+]

@@ -1,0 +1,28 @@
+[
+	{
+		"id": 0,
+		"icon": "circlePlus",
+		"title": "Future Technology Blog",
+		"description": "Stay informed with our blog section dedicated to future technology."
+	},
+	{
+		"id": 1,
+		"titleCard": "Quantity",
+		"descriptionCard": "Over 1,000 articles on emerging tech trends and breakthroughs."
+	},
+	{
+		"id": 2,
+		"titleCard": "Variety",
+		"descriptionCard": "Articles cover fields like AI, robotics, biotechnology, and more."
+	},
+	{
+		"id": 3,
+		"titleCard": "Frequency",
+		"descriptionCard": "Fresh content added daily to keep you up to date."
+	},
+	{
+		"id": 4,
+		"titleCard": "Authoritative",
+		"descriptionCard": "Written by our team of tech experts and industry professionals."
+	}
+]
