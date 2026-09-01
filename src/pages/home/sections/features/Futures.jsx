@@ -2,10 +2,10 @@ import { FutureCard } from './ui/FutureCard'
 import { FutureTitle } from './ui/FutureTitle'
 import { FutureCardBlock } from './ui/FutureCardBlock'
 import { SectionTitle } from '@/components/shared/SectionTitle'
+import { CustomContainer } from '@/components/shared/CustomContainer'
 
 import dataTech from '@/data/dataFuture/dataFuturesTech.json'
 import dataReserch from '@/data/dataFuture/dataFutureReserch.json'
-import { CustomContainer } from '../../../../components/shared/CustomContainer'
 
 export const Futures = () => {
 	return (
