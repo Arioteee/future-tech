@@ -150,6 +150,7 @@ export const CirclePlus = () => {
 			viewBox='0 0 64 64'
 			fill='none'
 			xmlns='http://www.w3.org/2000/svg'
+			className='max-xxl:w-12 max-xxl:h-12 max-md:w-10 max-md:h-10'
 		>
 			<path
 				d='M46 46C56.6731 43.4308 64 38.1265 64 32C64 25.8735 56.6731 20.5692 46 18C47.098 22.2126 47.716 26.9676 47.716 32C47.716 37.0324 47.098 41.7874 46 46Z'
@@ -179,6 +180,7 @@ export const BoxBlogs = () => {
 			viewBox='0 0 93 80'
 			fill='none'
 			xmlns='http://www.w3.org/2000/svg'
+			className='max-xxl:w-17.25 max-xxl:h-15 max-md:w-14.25 max-md:h-12.5'
 		>
 			<path d='M21.4603 55.2679V80H70.9759V55.2679H21.4603Z' fill='#FFD11A' />
 			<path
