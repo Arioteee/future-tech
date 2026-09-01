@@ -1,3 +1,3 @@
-export const CustomContainer = ({ content }) => {
-	return <div className='container-custom'>{content}</div>
+export const CustomContainer = ({ children }) => {
+	return <div className='container-custom'>{children}</div>
 }
