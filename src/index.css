@@ -45,6 +45,7 @@
 	/* Media query */
 	--breakpoint-xxl: 1440px;
 	--breakpoint-midlg: 1200px;
+	--breakpoint-safety: 1635px;
 }
 
 @layer base {
@@ -55,6 +56,6 @@
 
 @layer components {
 	.container-custom {
-		@apply max-w-[1596px] pl-8 pr-8 m-auto;
+		@apply max-w-[1596px] px-4 safety:px-0 m-auto;
 	}
 }
