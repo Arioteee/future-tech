@@ -212,3 +212,43 @@ export const LikeIcon = ({ fill = 'none', stroke }) => {
 		</svg>
 	)
 }
+
+export const CommentIcon = () => {
+	return (
+		<svg
+			width='24'
+			height='24'
+			viewBox='0 0 24 24'
+			fill='none'
+			xmlns='http://www.w3.org/2000/svg'
+		>
+			<path
+				d='M8.48581 19.1888C9.54657 19.7083 10.7392 20 12 20C16.4183 20 20 16.4183 20 12C20 7.58172 16.4183 4 12 4C7.58172 4 4 7.58172 4 12C4 13.6401 4.49356 15.165 5.34026 16.4341M8.49231 19.1877L8.48581 19.1888L4 20L5.34026 16.4341M5.34026 16.4341L5.34154 16.4308'
+				stroke='#666666'
+				strokeWidth='1.5'
+				strokeLinecap='round'
+				strokeLinejoin='round'
+			/>
+		</svg>
+	)
+}
+
+export const ShareIcon = () => {
+	return (
+		<svg
+			width='24'
+			height='24'
+			viewBox='0 0 24 24'
+			fill='none'
+			xmlns='http://www.w3.org/2000/svg'
+		>
+			<path
+				d='M10.0384 13.9616L4.1719 11.2951C3.36454 10.9281 3.39898 9.7697 4.22673 9.45134L18.8999 3.80781C19.7087 3.49675 20.5033 4.29139 20.1922 5.10013L14.5487 19.7733C14.2303 20.6011 13.072 20.6355 12.705 19.8281L10.0384 13.9616ZM10.0384 13.9616L14.4231 9.57704'
+				stroke='#666666'
+				strokeWidth='1.5'
+				strokeLinecap='round'
+				strokeLinejoin='round'
+			/>
+		</svg>
+	)
+}
