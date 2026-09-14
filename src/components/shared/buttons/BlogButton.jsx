@@ -4,7 +4,7 @@ import { LikeIcon, CommentIcon, ShareIcon } from '@/components/icons/Icons'
 
 export const BlogButton = ({ nameBtn }) => {
 	const [isLiked, setIsLiked] = useState(false)
-	let [likesCount, setLikesCount] = useState(0)
+	let [likesCount, setLikesCount] = useState(1499)
 	let activetiesCount = '0'
 
 	const formatLikes = count => {
