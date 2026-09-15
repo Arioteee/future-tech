@@ -1,7 +1,7 @@
 [
 	{
 		"id": 0,
-		"avatar": "../../assets/png/ashabNormal.png",
+		"avatar": "../../../public/images/JohnTechsonAvatar.png",
 		"authorName": "John Techson",
 		"themeBlog": "Quantum Computing",
 		"datePostBlog": "October 15, 2023",
@@ -10,7 +10,7 @@
 	},
 	{
 		"id": 1,
-		"avatar": "../../assets/png/ashabNormal.png",
+		"avatar": "../../../public/images/SarahEthicistAvatar.png",
 		"authorName": "Sarah Ethicist",
 		"themeBlog": "AI Ethics",
 		"datePostBlog": "November 5, 2023",
@@ -19,7 +19,7 @@
 	},
 	{
 		"id": 2,
-		"avatar": "../../assets/png/ashabNormal.png",
+		"avatar": "../../../public/images/AstronomerXAvatar.png",
 		"authorName": "Astronomer X",
 		"themeBlog": "Space Exploration",
 		"datePostBlog": "December 10, 2023",
