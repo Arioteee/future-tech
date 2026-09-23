@@ -252,3 +252,64 @@ export const ShareIcon = () => {
 		</svg>
 	)
 }
+
+export const DoubleArc = ({ styles }) => {
+	return (
+		<svg
+			className={`${styles}`}
+			viewBox='0 0 38 40'
+			fill='none'
+			xmlns='http://www.w3.org/2000/svg'
+		>
+			<path
+				d='M17.5 23.75C17.5 16.5562 38.454 3.75085 37.4661 8.5496C35.4016 18.5779 35.4016 28.9221 37.4661 38.9504C38.454 43.7491 17.5 30.9438 17.5 23.75Z'
+				fill='#FFD11A'
+			/>
+			<path
+				d='M20 16.25C20 23.4438 -0.954048 36.2492 0.033865 31.4504C2.09839 21.4221 2.09839 11.0779 0.033865 1.0496C-0.954048 -3.74915 20 9.05618 20 16.25Z'
+				fill='#404040'
+			/>
+		</svg>
+	)
+}
+
+export const EyeIcon = ({ styles }) => {
+	return (
+		<svg
+			className={`${styles}`}
+			viewBox='0 0 19 14'
+			fill='none'
+			xmlns='http://www.w3.org/2000/svg'
+		>
+			<path
+				d='M17.0858 5.60626C17.2987 5.87423 17.4167 6.22237 17.4167 6.58335C17.4167 6.94432 17.2987 7.29246 17.0858 7.56043C15.7371 9.20836 12.6671 12.4167 9.08334 12.4167C5.4996 12.4167 2.42966 9.20836 1.08094 7.56043C0.867915 7.29246 0.75 6.94432 0.75 6.58335C0.75 6.22237 0.867915 5.87423 1.08094 5.60626C2.42966 3.95834 5.4996 0.75 9.08334 0.75C12.6671 0.75 15.7371 3.95834 17.0858 5.60626Z'
+				stroke='#FFD11A'
+				strokeWidth='1.5'
+				strokeLinecap='round'
+				strokeLinejoin='round'
+			/>
+			<path
+				d='M9.08376 9.17579C10.5026 9.17579 11.6527 8.01506 11.6527 6.58323C11.6527 5.15139 10.5026 3.99066 9.08376 3.99066C7.66494 3.99066 6.51477 5.15139 6.51477 6.58323C6.51477 8.01506 7.66494 9.17579 9.08376 9.17579Z'
+				stroke='#FFD11A'
+				strokeWidth='1.5'
+				strokeLinecap='round'
+				strokeLinejoin='round'
+			/>
+		</svg>
+	)
+}
+
+export const IsometricCube = ({ styles }) => {
+	return (
+		<svg
+			className={`${styles}`}
+			height='64'
+			viewBox='0 0 56 64'
+			fill='none'
+			xmlns='http://www.w3.org/2000/svg'
+		>
+			<path d='M28 0V64L0 48V16L28 0Z' fill='#FFD11A' />
+			<path d='M56 0V64L28 48V16L56 0Z' fill='#404040' />
+		</svg>
+	)
+}
