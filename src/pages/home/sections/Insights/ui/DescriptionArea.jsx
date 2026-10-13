@@ -1,6 +1,6 @@
-export const DescriptionArea = ({ children, title, description, gridStyle }) => {
+export const DescriptionArea = ({ children, title, description, gridStyle, style }) => {
 	return (
-		<div className={`${gridStyle}`}>
+		<div className={`${gridStyle} ${style}`}>
 			<div className='flex items-center justify-between py-5 px-7.5 bg-dark-10 rounded-lg border border-dark-15'>
 				<div className='flex flex-col gap-0.5'>
 					<span className='text-light-60 text-sm lg:text-base xl:text-lg'>{title}</span>
