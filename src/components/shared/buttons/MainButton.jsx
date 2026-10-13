@@ -14,7 +14,7 @@ export const MainButton = ({
 
 	return typeOfBtn === 'link' ? (
 		<Link
-			className={`flex items-center justify-center gap-2.5 cursor-pointer border border-dark-15 px-5 ${styles}`}
+			className={`flex items-center justify-center gap-2.5 cursor-pointer border border-dark-15 ${styles}`}
 			to={'/'}
 		>
 			<span className='text-sm md:text-lg text-light-60'>{nameBtn}</span>
